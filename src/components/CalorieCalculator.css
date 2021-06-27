@@ -1,0 +1,94 @@
+.header{
+   border: 1px solid gray; 
+   width: 100%;
+   background-color: black;
+}
+
+.header h1 {
+    color: white;
+    font-family: cursive;
+}
+
+.totalCalorieCount {
+    position: absolute;
+    top: 93px;
+    left: 10px;
+}
+
+.totalCalorieCount h2{
+    font-family: cursive;
+}
+
+.deleteAllBtn{
+    position: absolute;
+    top: 115px;
+    right: 10px;
+}
+
+.deleteAllBtn button{
+    height: 40px;
+    width: 85px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.mealListMain{
+    display: flex;
+    height: 33px;
+    width: 500px;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-bottom: 13px;
+}
+
+.mealListMain button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(60, 60, 196);
+    color: white;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.mealListData {
+    font-family: cursive;
+}
+
+.mealListhead {
+    height: 500px;
+    width: 521px;
+    position: absolute;
+    left: 421px;
+    top: 48%;
+}
+
+.mealInput{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    left: 433px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.mealInput input{
+    height: 30px;
+    width: 200px;
+    border-color: gray;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.mealInput button{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(60, 60, 196);
+    color: white;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
